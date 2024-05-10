@@ -6,3 +6,11 @@ this script.sh triggers post_command.sh it will get the whole email dir and then
 that filechecker.sh script will check all png and pdf files inside dir and if present it willl get all files encode them and push to post request.
 
 We have one more function in watcher.sh that will lock the file state and cannot run the script again if its already been running so to unlock you might need to remove /tmp/temp_lock.
+
+
+PRE-REQ: install
+
+jq
+postfix
+s-nail
+ripmime
